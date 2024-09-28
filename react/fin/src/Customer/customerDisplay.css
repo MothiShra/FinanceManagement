@@ -1,0 +1,40 @@
+/* customerDisplay.css */
+
+.container {
+    margin-top: 50px;
+    background-color: #f7f7f7; /* Light background color */
+    padding: 20px; /* Add padding for better spacing */
+}
+  
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff; /* White background for the card */
+    padding: 20px; /* Add padding for better spacing */
+}
+  
+.card-title {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+  
+.form-control {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  
+.btn-primary,
+.btn-success,
+.btn-info {
+    margin-right: 10px;
+    transition: all 0.3s ease-in-out; /* Add transition to all button properties */
+}
+
+.btn-primary:hover,
+.btn-success:hover,
+.btn-info:hover {
+    opacity: 0.8;
+    transform: scale(1.05); /* Increase button scale on hover */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow on hover */
+}
